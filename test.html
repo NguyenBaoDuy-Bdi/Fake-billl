@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông báo - Chuyển khoản thành công</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.imgur.com/JalLCy6.jpeg') no-repeat center center fixed;
+    background-size: contain; /* Adjusted to 'contain' */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+        .content {
+            position: relative;
+            width: 375px;
+            height: 812px;
+        }
+        .amount {
+            position: absolute;
+            top: 195px; /* Adjusted for better fit */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 25px;
+            font-weight: 500;
+            color: #132dc0;
+            white-space: nowrap; /* Ensure text doesn't wrap */
+        }
+        .time {
+            position: absolute;
+            top: 235px; /* Adjusted for better fit */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 13px;
+            color: #666666;
+        }
+  .name {
+            position: absolute;
+            top: 300px; /* Adjusted for better fit */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            font-weight: bold; /* Make text slightly bolder */
+            color: #2b2828;
+            white-space: nowrap;
+            text-align: center;
+        }
+        .bank, .transaction {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 13px; /* Adjusted font size */
+            font-weight: 400; /* Medium font weight */
+            color: #2c2c2c;
+            white-space: nowrap;
+            text-align: center;
+        }
+        .bank {
+            top: 330px; /* Adjusted for better fit */
+        }
+        .transaction {
+            top: 360px; /* Adjusted for better fit */
+        }
+        .logo-container {
+    position: absolute;
+    top: 315px; /* Điều chỉnh vị trí dọc tương ứng với .bank */
+    left: 65px; /* Điều chỉnh vị trí ngang để nằm bên trái của .bank */
+}
+
+.logo {
+    width: 36px; /* Điều chỉnh kích thước của logo tùy thích */
+    height: auto; /* Đảm bảo tỷ lệ khung hình */
+    top: -15px; /* Điều chỉnh vị trí dọc tương ứng với .bank */
+    left: 9px; 
+}
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="logo-container">
+            <img src="https://i.imgur.com/gcG0TMd.png" alt="Logo" class="logo">
+        </div>
+        <div class="details-container">
+            <div class="amount">150,000 VND</div>
+            <div class="time">20:28 - 16/06/2024</div>
+            <div class="name">NGUYEN TRONG THAO</div>
+            <div class="bank">MBBank (MB) - 055869999 </div>
+            <div class="transaction">NGUYEN GIA BAO chuyen tien</div>
+        </div>
+    </div>
+    
+</body>
+</html>
